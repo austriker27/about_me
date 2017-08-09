@@ -3,7 +3,9 @@ body {
   background-color: gray;
   background-blend-mode: lighten;
   text-align: center;
+  padding: 0em, 50em, 0em, 50em;
 }
+
 
 li {
   list-style: none;

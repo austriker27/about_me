@@ -29,7 +29,7 @@ var brokenBoneLower = brokenBone.toLowerCase();
 if (brokenBoneLower === 'yes' || brokenBoneLower === 'y') {
   alert('Negative, Im impervious.')
 } else if (brokenBoneLower === 'no' || brokenBoneLower === 'n') {
-  alert('Correct, I am invicible!');
+  alert('Correct, I am invincible!');
 } else {
   alert('Incorrect. You need to answer Yes or No.');
 }
