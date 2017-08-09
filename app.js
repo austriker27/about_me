@@ -1,6 +1,6 @@
 'use strict';
 
-var prediction = prompt('Do you think you know me well?');
+var prediction = prompt('Welcome to the quiz about me. Do you think you know me well?');
 var predictionLower = prediction.toLowerCase();
 if (predictionLower === 'yes' || predictionLower === 'y') {
   alert ('Oh really? You think so? Well good luck then.');
