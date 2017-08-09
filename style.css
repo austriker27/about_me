@@ -1,5 +1,10 @@
+* {
+  font-family: Tahoma;
+  color: black;
+}
+
+
 body {
-  background-image: url("https://www.fillmurray.com/284/196");
   background-color: gray;
   background-blend-mode: lighten;
   text-align: center;
@@ -7,18 +12,15 @@ body {
 }
 
 
-li {
+#nav li {
   list-style: none;
 }
+
 h1 {
   background-color: white;
   border-right: 30%;
 }
 
-* {
-  font-family: Tahoma;
-  color: black;
-}
 
 footer {
   position: absolute;
