@@ -12,47 +12,47 @@ if (predictionLower === 'yes' || predictionLower === 'y') {
 console.log(predictionLower);
 
 
-var birth = prompt('Did I live in Minnesota for over 10 years?')
-var birthLower = birth.toLowerCase();
-if (birthLower === 'yes' || birthLower === 'y') {
-  alert('Oh yeah you betcha!')
-} else if (birthLower === 'no' || birthLower === 'n') {
-  alert('Sorry, that is not correct.');
+var learnedCSS = prompt('Did I write in CSS years many years ago before even knowing what CSS stood for?')
+var learnedCSSLower = learnedCSS.toLowerCase();
+if (learnedCSSLower === 'yes' || learnedCSSLower === 'y') {
+  alert('Oh heck ya!')
+} else if (learnedCSSLower === 'no' || learnedCSSLower === 'n') {
+  alert('False, I actually did that.');
 } else {
   alert('Incorrect. You need to answer Yes or No.');
 }
-console.log(birthLower);
+console.log(learnedCSSLower);
 
 
-var brokenBone = prompt('Have I ever broken a bone?')
-var brokenBoneLower = brokenBone.toLowerCase();
-if (brokenBoneLower === 'yes' || brokenBoneLower === 'y') {
-  alert('Negative, Im impervious.')
-} else if (brokenBoneLower === 'no' || brokenBoneLower === 'n') {
-  alert('Correct, I am invincible!');
+var photoExp = prompt('Do I have years of photography experience that results in impeccable design decisions?')
+var photoExp = brokenBone.toLowerCase();
+if (photoExp === 'yes' || photoExp === 'y') {
+  alert('You better believe I do (although applying that design eye is still a work in progress).')
+} else if (photoExp === 'no' || photoExp === 'n') {
+  alert('False, I do have years of photography experience.');
 } else {
   alert('Incorrect. You need to answer Yes or No.');
 }
-console.log(brokenBoneLower);
+console.log(photoExp);
 
-var grandmaGrave = prompt('Have I visited my great grandmother\'s grave in Scotland?')
-var grandmaGraveLower = grandmaGrave.toLowerCase();
-if (grandmaGraveLower === 'yes' || grandmaGraveLower === 'y') {
-  alert('Ding, ding, winner!!')
-} else if (grandmaGraveLower === 'no' || grandmaGraveLower === 'n') {
-  alert('Sorry, that is not correct.');
+var dundieWinner = prompt('Am I the receipient of multiple Dundie Awards?')
+var dundieWinnerLower = dundieWinner.toLowerCase();
+if (dundieWinnerLower === 'yes' || dundieWinnerLower === 'y') {
+  alert('Ding, ding, winner! I have indeed won multiple Dundees. ')
+} else if (dundieWinnerLower === 'no' || dundieWinnerLower === 'n') {
+  alert('Sorry, that is not correct. I have won many Dundies!');
 } else {
   alert('Incorrect. You need to answer Yes or No.');
 }
-console.log(grandmaGraveLower);
+console.log(dundieWinnerLower);
 
-var skyDived = prompt('Have I sky dived in 3 different countries?')
-var skyDivedLower = skyDived.toLowerCase();
-if (skyDivedLower === 'yes' || skyDivedLower === 'y') {
-  alert('Not even close. I have never sky dived.')
-} else if (skyDivedLower === 'no' || skyDivedLower === 'n') {
-  alert('That is correct, I\'ve never even sky dived once.');
+var hardWorking = prompt('Legend tells a tale of a David A. Lindahl working straight for seven days without food nor rest in order to meet a deadline with a flawless, beautiful product. Is this true?')
+var hardWorkingLower = hardWorking.toLowerCase();
+if (hardWorkingLower === 'yes' || hardWorkingLower === 'y') {
+  alert('Yup, the legend does not lie.')
+} else if (hardWorkingLower === 'no' || hardWorkingLower === 'n') {
+  alert('You are incorrect, believe the legend as fact.');
 } else {
   alert('Incorrect. You need to answer Yes or No.');
 }
-console.log(skyDivedLower);
+console.log(hardWorkingLower);
