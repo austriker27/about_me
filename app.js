@@ -1,6 +1,7 @@
 'use strict';
 
-// var correctAnswers = []
+var correctAnswers = []
+
 
 var prediction = prompt('Welcome to the quiz about me. Do you think you know me well?');
 var predictionLower = prediction.toLowerCase();
@@ -18,6 +19,7 @@ var learnedCSS = prompt('Did I modify CSS files many years ago before even knowi
 var learnedCSSLower = learnedCSS.toLowerCase();
 if (learnedCSSLower === 'yes' || learnedCSSLower === 'y') {
   alert('Oh heck ya!')
+  correctAnswers.push(1);
 } else if (learnedCSSLower === 'no' || learnedCSSLower === 'n') {
   alert('False, I actually did that.');
 } else {
@@ -30,6 +32,7 @@ var photoExp = prompt('Do I have years of photography experience that results in
 var photoExp = photoExp.toLowerCase();
 if (photoExp === 'yes' || photoExp === 'y') {
   alert('You better believe I do (although applying that design eye is still a work in progress).')
+  correctAnswers.push(1);
 } else if (photoExp === 'no' || photoExp === 'n') {
   alert('False, I do have years of photography experience.');
 } else {
@@ -41,6 +44,7 @@ var dundieWinner = prompt('Am I the receipient of multiple Dundie Awards?')
 var dundieWinnerLower = dundieWinner.toLowerCase();
 if (dundieWinnerLower === 'yes' || dundieWinnerLower === 'y') {
   alert('Ding, ding, winner! I have indeed won multiple Dundees. ')
+  correctAnswers.push(1);
 } else if (dundieWinnerLower === 'no' || dundieWinnerLower === 'n') {
   alert('Sorry, that is not correct. I have won many Dundies!');
 } else {
@@ -52,6 +56,7 @@ var hardWorking = prompt('Legend tells a tale of a David A. Lindahl working stra
 var hardWorkingLower = hardWorking.toLowerCase();
 if (hardWorkingLower === 'yes' || hardWorkingLower === 'y') {
   alert('Yup, the legend does not lie.')
+  correctAnswers.push(1);
 } else if (hardWorkingLower === 'no' || hardWorkingLower === 'n') {
   alert('You are incorrect, you must believe the legend is fact.');
 } else {
@@ -64,10 +69,11 @@ for (i = 0; i < 4; i++) {
   var statesBeen = prompt('Okay, time to get serious... How many states in the USA have I been to?')
   if (statesBeen === '47') {
     alert('Wow, that was impressive! You win!')
+    correctAnswers.push(1);
     break;
   } else if (statesBeen >= '0' && statesBeen < '47') {
     alert('Nope, try a little higher.')
-  } else if (statesBeen > '47' && statesBeen <= '50') {
+  } else if (statesBeen > '47') {
     alert('Whoa, too high. Try guessing something lower.')
   } else {
     alert('Hey there, don\'t be silly. Put a number in.')
@@ -84,11 +90,14 @@ for (i = 0; i < 6, i++) {
   console.log(statesLivedGuess);
   if (statesLivedGuess.toLowerCase(); === statesNotLived[0] || statesNotLived[1]] || statesNotLived[2] || var i === 6) {
     alert('You win! I have not been to the states of:' + statesNotLived[.toString] '.');
+    correctAnswers.push(1);
     break;
   } else () {
     alert('Negative Ghostrider!')
   }
 }
+
+prompt('Congrats, you got' + (correctAnswers.length + 1) + 'out of 7 questions correct. Come again soon!')
 
 
 // directions :
