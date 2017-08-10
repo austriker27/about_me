@@ -2,8 +2,9 @@
 
 var name = prompt('What is your name?');
 
+var correctAnswers = [];
+
 function predictionF() {
-  var correctAnswers = [];
   var prediction = prompt('Welcome to the quiz about me. Do you think you know me well?');
   var predictionLower = prediction.toLowerCase();
   if (predictionLower === 'yes' || predictionLower === 'y') {
@@ -16,6 +17,21 @@ function predictionF() {
   console.log(predictionLower);
 }
 predictionF();
+
+function brokenBonesF() {
+  var brokenBones = prompt('Have I ever broken a bone?');
+  var brokenBonesLower = brokenBones.toLowerCase();
+  if (brokenBonesLower === 'yes' || brokenBonesLower === 'y') {
+    alert ('Really? How clumsy do you think I am?');
+  } else if (brokenBonesLower === 'no' || brokenBonesLower === 'n') {
+    alert('You are right. I drank a lot of milk as a wee lad.');
+    correctAnswers.push(1);
+  } else {
+    alert('You need to answer with a yes or no.');
+  }
+  console.log(brokenBonesLower);
+}
+brokenBonesF();
 
 function learnedCSSF() {
   var learnedCSS = prompt('Did I modify CSS files many years ago before even knowing what CSS stood for?');
