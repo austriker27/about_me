@@ -75,6 +75,7 @@ for (i = 0; i < 4; i++) {
     alert('Nope, try a little higher.')
   } else if (statesBeen > '47') {
     alert('Whoa, too high. Try guessing something lower.')
+    // do i need to add another else if to for if i ==== 4, to end the looop after guesses??
   } else {
     alert('Hey there, don\'t be silly. Put a number in.')
   }
@@ -85,7 +86,7 @@ for (i = 0; i < 4; i++) {
 // 7th question
 var statesNotLived = ['north dakota', 'arizona', 'nevada'];
 
-for ( var i = 0; i < 6; i++) {
+for (var i = 0; i < 6; i++) {
   var statesLivedGuess = prompt('Okay smartypants, lets try one final question.. Which states haven\'t I been to?')
   console.log(statesLivedGuess);
   if (statesLivedGuess.toLowerCase() === statesNotLived[0] || statesNotLived[1] || statesNotLived[2] || i === 6) {
