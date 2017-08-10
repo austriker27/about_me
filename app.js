@@ -89,7 +89,7 @@ for ( var i = 0; i < 6; i++) {
   var statesLivedGuess = prompt('Okay smartypants, lets try one final question.. Which states haven\'t I been to?')
   console.log(statesLivedGuess);
   if (statesLivedGuess.toLowerCase() === statesNotLived[0] || statesNotLived[1] || statesNotLived[2] || i === 6) {
-    alert('You win! I have not been to the states of: ' + statesNotLived[0].toString() + ', ' + statesNotLived[1].toString() + ', ' statesNotLived[2].toString() '.');
+    alert('You win! I have not been to the states of: ' + statesNotLived[0].toString() + ', ' + statesNotLived[1].toString() + ', ' + statesNotLived[2].toString() + '.' ); 
     correctAnswers.push(1);
     break;
   } else {
@@ -97,7 +97,7 @@ for ( var i = 0; i < 6; i++) {
   }
 }
 
-alert('Congrats,' + name + 'you got ' + (correctAnswers.length + 1) + ' out of 7 questions correct. Come again soon!')
+alert('Congrats, ' + name + ' you got ' + (correctAnswers.length + 1) + ' out of 7 questions correct. Come again soon!')
 
 
 // directions :
