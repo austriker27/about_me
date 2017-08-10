@@ -14,7 +14,7 @@ if (predictionLower === 'yes' || predictionLower === 'y') {
 console.log(predictionLower);
 
 
-var learnedCSS = prompt('Did I write in CSS years many years ago before even knowing what CSS stood for?')
+var learnedCSS = prompt('Did I modify CSS files many years ago before even knowing what CSS stood for?')
 var learnedCSSLower = learnedCSS.toLowerCase();
 if (learnedCSSLower === 'yes' || learnedCSSLower === 'y') {
   alert('Oh heck ya!')
@@ -27,7 +27,7 @@ console.log(learnedCSSLower);
 
 
 var photoExp = prompt('Do I have years of photography experience that results in impeccable design decisions?')
-var photoExp = brokenBone.toLowerCase();
+var photoExp = photoExp.toLowerCase();
 if (photoExp === 'yes' || photoExp === 'y') {
   alert('You better believe I do (although applying that design eye is still a work in progress).')
 } else if (photoExp === 'no' || photoExp === 'n') {
@@ -53,39 +53,40 @@ var hardWorkingLower = hardWorking.toLowerCase();
 if (hardWorkingLower === 'yes' || hardWorkingLower === 'y') {
   alert('Yup, the legend does not lie.')
 } else if (hardWorkingLower === 'no' || hardWorkingLower === 'n') {
-  alert('You are incorrect, believe the legend as fact.');
+  alert('You are incorrect, you must believe the legend is fact.');
 } else {
   alert('Incorrect. You need to answer Yes or No.');
 }
 console.log(hardWorkingLower);
 
 // 6th question
-for (i = 0; i < 4; i++); {
-  var statesLived = prompt('Okay, time to get serious... How many states in the USA have I been to?')
-  if (statesLived === '47') {
-    alert('Wow, that was impressive! You win!');
+for (i = 0; i < 4; i++) {
+  var statesBeen = prompt('Okay, time to get serious... How many states in the USA have I been to?')
+  if (statesBeen === '47') {
+    alert('Wow, that was impressive! You win!')
     break;
-  } else if (statesLived >= '0' && statesLived < '47') {
+  } else if (statesBeen >= '0' && statesBeen < '47') {
     alert('Nope, try a little higher.')
-  } else if (statesLived > '47' && statesLived <= '50') {
+  } else if (statesBeen > '47' && statesBeen <= '50') {
     alert('Whoa, too high. Try guessing something lower.')
   } else {
     alert('Hey there, don\'t be silly. Put a number in.')
   }
-  console.log(statesLived);
+  console.log(statesBeen);
   }
 
-// 7th question
-var statesNotLived = ['North Dakota', 'Arizona', 'Nevada']
 
-for (i = 0; i < 6, i++); {
+// 7th question
+var statesNotLived = ['north dakota', 'arizona', 'nevada'];
+
+for (i = 0; i < 6, i++) {
   var statesLivedGuess = prompt('Okay smartypants, can you guess which states I haven\'t been to?')
-  console.log(statesLivedGuess
-  if (statesLivedGuess.toLowerCase(); === statesNotLived) {
-    alert('Thats right! I have not been to' + statesNotLived '.');
+  console.log(statesLivedGuess);
+  if (statesLivedGuess.toLowerCase(); === statesNotLived[0] || statesNotLived[1]] || statesNotLived[2] || var i === 6) {
+    alert('You win! I have not been to the states of:' + statesNotLived[.toString] '.');
     break;
-  } else (statesLivedGuess.toLowerCase(); != statesNotLived;) {
-    alert('Nope try again')
+  } else () {
+    alert('Negative Ghostrider!')
   }
 }
 
