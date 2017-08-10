@@ -1,26 +1,96 @@
+* {
+  box-sizing: border-box;
+  font-family: Tahoma;
+}
+
+/*
 body {
-  background-image: url("https://www.fillmurray.com/284/196");
   background-color: gray;
   background-blend-mode: lighten;
   text-align: center;
   padding: 0em, 50em, 0em, 50em;
-}
+}*/
 
-
-li {
-  list-style: none;
-}
 h1 {
-  background-color: white;
-  border-right: 30%;
+  text-align: center;
+  margin: 0%, 0%, 5%, 0%;
+}
+/*
+.nav {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  }*/
+
+li.nav {
+  margin: auto;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  background-color: #318bac;
+  border-radius: 5%;
+  text-align: center;
+  width: 30%;
 }
 
-* {
-  font-family: Tahoma;
-  color: black;
+.name {
+  background-color: #318bac;
+  border-radius: 5%;
+  color: #330e6a;
+  margin: auto;
+  display: inline;
+}
+
+.column {
+  display: inline-block;
+  width: 32%;
+  background-color: #318bac;
+  padding: 20px;
+  height: 180px;
+  margin: auto;
+  vertical-align: middle;
+  line-height: 90px;
+  text-align: center;
+}
+
+.column2 {
+  display: inline-block;
+  width: 49%;
+  background-color: #318bac;
+  padding: 20px;
+  height: 180px;
+  margin: auto;
+  vertical-align: middle;
+  line-height: 90px;
+  text-align: center;
+}
+
+
+.subtitle {
+  text-align: center;
+}
+
+.subtext {
+  font-size: .6em;
+}
+
+.NPlists {
+  display: inline-block;
+  width: 32%;
+  background-color: #318bac;
+  padding: 20px;
+  height: 180px;
+  margin: 0px 0px 1% 0px;
+  vertical-align: middle;
+  line-height: 90px;
+  text-align: center;
 }
 
 footer {
-  position: absolute;
-  bottom: 10em;
+  margin: 10%; 0%; 5%; 0%;
+  clear:both;
+}
+
+body {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
