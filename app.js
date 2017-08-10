@@ -85,11 +85,11 @@ for (i = 0; i < 4; i++) {
 // 7th question
 var statesNotLived = ['north dakota', 'arizona', 'nevada'];
 
-for (i = 0; i < 6, i++) {
+for ( var i = 0; i < 6; i++) {
   var statesLivedGuess = prompt('Okay smartypants, can you guess which states I haven\'t been to?')
   console.log(statesLivedGuess);
-  if (statesLivedGuess.toLowerCase(); === statesNotLived[0] || statesNotLived[1]] || statesNotLived[2] || var i === 6) {
-    alert('You win! I have not been to the states of:' + statesNotLived[.toString] '.');
+  if (statesLivedGuess.toLowerCase() === statesNotLived[0] || statesNotLived[1] || statesNotLived[2] || i === 6) {
+    alert('You win! I have not been to the states of:' + statesNotLived.toString() + '.');
     correctAnswers.push(1);
     break;
   } else () {
