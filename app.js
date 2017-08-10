@@ -1,8 +1,8 @@
 'use strict';
 
+var name = prompt('What is your name?')
+
 var correctAnswers = []
-
-
 var prediction = prompt('Welcome to the quiz about me. Do you think you know me well?');
 var predictionLower = prediction.toLowerCase();
 if (predictionLower === 'yes' || predictionLower === 'y') {
@@ -66,7 +66,7 @@ console.log(hardWorkingLower);
 
 // 6th question
 for (i = 0; i < 4; i++) {
-  var statesBeen = prompt('Okay, time to get serious... How many states in the USA have I been to?')
+  var statesBeen = prompt('Okay, time to get serious... How many states in the USA have I been to? You only get 4 attempts, choose wisely!')
   if (statesBeen === '47') {
     alert('Wow, that was impressive! You win!')
     correctAnswers.push(1);
@@ -86,18 +86,18 @@ for (i = 0; i < 4; i++) {
 var statesNotLived = ['north dakota', 'arizona', 'nevada'];
 
 for ( var i = 0; i < 6; i++) {
-  var statesLivedGuess = prompt('Okay smartypants, can you guess which states I haven\'t been to?')
+  var statesLivedGuess = prompt('Okay smartypants, lets try one final question.. Which states haven\'t I been to?')
   console.log(statesLivedGuess);
   if (statesLivedGuess.toLowerCase() === statesNotLived[0] || statesNotLived[1] || statesNotLived[2] || i === 6) {
-    alert('You win! I have not been to the states of:' + statesNotLived.toString() + '.');
+    alert('You win! I have not been to the states of: ' + statesNotLived[0].toString() + ', ' + statesNotLived[1].toString() + ', ' statesNotLived[2].toString() '.');
     correctAnswers.push(1);
     break;
-  } else () {
+  } else {
     alert('Negative Ghostrider!')
   }
 }
 
-prompt('Congrats, you got' + (correctAnswers.length + 1) + 'out of 7 questions correct. Come again soon!')
+alert('Congrats,' + name + 'you got ' + (correctAnswers.length + 1) + ' out of 7 questions correct. Come again soon!')
 
 
 // directions :
