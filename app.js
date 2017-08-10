@@ -94,18 +94,18 @@ function hardworkingF() {
 hardworkingF();
 
 function statesBeenF() {
-  for (i = 0; i < 4; i++) {
+  for (var i = 0; i < 4; i++) {
     var statesBeen = prompt('Okay, time to get serious... How many states in the USA have I been to? You only get 4 attempts, choose wisely!');
-    if (statesBeen === '47') {
+    if (parseInt(statesBeen) === 47) {
       alert('Wow, that was impressive! You win!');
       correctAnswers.push(1);
       break;
-    } else if (statesBeen >= '0' && statesBeen < '47') {
+    } else if (parseInt(statesBeen) >= '0' && parseInt(statesBeen) < '47') {
       alert('Nope, try a little higher.');
-    } else if (statesBeen > '47') {
+    } else if (parseInt(statesBeen) > '47') {
       alert('Whoa, too high. Try guessing something lower.');
     } else {
-      alert('Hey there, don\'t be silly. Put a number in.');
+      alert('Hey there, don\'t be silly. Enter a number between 1-50.');
     }
     console.log(statesBeen);
   }
@@ -128,4 +128,4 @@ function statesLivedGuessF() {
 }
 statesLivedGuessF();
 
-alert('Congrats, ' + name + ' you got ' + (correctAnswers.length + 1) + ' out of 7 questions correct. Come again soon!');
+alert('Congrats, ' + name + '.  You got ' + (correctAnswers.length + 1) + ' out of 7 questions correct. Come again soon!');
