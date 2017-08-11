@@ -31,6 +31,8 @@ li.nav {
   border-radius: 5%;
   text-align: center;
   width: 30%;
+  min-width: 30px;
+  mid-height: 20px;
 }
 
 .name {
@@ -51,6 +53,8 @@ li.nav {
   vertical-align: middle;
   line-height: 90px;
   text-align: center;
+  min-width: 30px;
+  mid-height: 20px;
 }
 
 .column2 {
