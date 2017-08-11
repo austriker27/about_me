@@ -23,6 +23,10 @@ h1 {
   margin: auto;
   }*/
 
+  body {
+    width: 100%;
+  }
+
 li.nav {
   margin: auto;
   display: inline-block;
@@ -31,11 +35,13 @@ li.nav {
   border-radius: 5%;
   text-align: center;
   width: 30%;
+  min-width: 30px;
+  mid-height: 20px;
 }
 
 .name {
   background-color: #318bac;
-  border-radius: 5%;
+  /*border-radius: 5%;*/
   color: #330e6a;
   margin: auto;
   display: inline;
@@ -43,7 +49,7 @@ li.nav {
 
 .column {
   display: inline-block;
-  width: 32%;
+  width: 32.5%;
   background-color: #318bac;
   padding: 20px;
   height: 180px;
@@ -51,6 +57,8 @@ li.nav {
   vertical-align: middle;
   line-height: 90px;
   text-align: center;
+  min-width: 30px;
+  mid-height: 20px;
 }
 
 .column2 {
