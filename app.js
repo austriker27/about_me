@@ -1,6 +1,6 @@
 'use strict';
 
-var name = prompt('What is your name?');
+var name = prompt('Vat is your name?');
 
 var correctAnswers = [];
 
@@ -8,11 +8,11 @@ function predictionF() {
   var prediction = prompt('Welcome to the quiz about me. Do you think you know me well?');
   var predictionLower = prediction.toLowerCase();
   if (predictionLower === 'yes' || predictionLower === 'y') {
-    alert ('Oh really? You think so? Well good luck then.');
+    alert ('Oh really? You think so? Well good luck then. Muhahahaha');
   } else if (predictionLower === 'no' || predictionLower === 'n') {
     alert('Bummer, this is not going to go well.');
   } else {
-    alert('You need to answer with a yes or no.');
+    alert('Uhmmm, You need to answer with a yes or no.');
   }
   console.log(predictionLower);
 }
@@ -24,17 +24,17 @@ function brokenBonesF() {
   if (brokenBonesLower === 'yes' || brokenBonesLower === 'y') {
     alert ('Really? How clumsy do you think I am?');
   } else if (brokenBonesLower === 'no' || brokenBonesLower === 'n') {
-    alert('You are right. I drank a lot of milk as a wee lad.');
+    alert('Well done. I drank a lot of milk as a wee lad. Never have I ever gotten the chickenpox either.');
     correctAnswers.push(1);
   } else {
-    alert('You need to answer with a yes or no.');
+    alert('Ahem, once again, you need to answer with a yes or no.');
   }
   console.log(brokenBonesLower);
 }
 brokenBonesF();
 
 function learnedCSSF() {
-  var learnedCSS = prompt('Did I modify CSS files many years ago before even knowing what CSS stood for?');
+  var learnedCSS = prompt('Did I modify CSS files back in 2009 even before knowing what CSS stood for?');
   var learnedCSSLower = learnedCSS.toLowerCase();
   if (learnedCSSLower === 'yes' || learnedCSSLower === 'y') {
     alert('Oh heck ya!');
@@ -49,15 +49,15 @@ function learnedCSSF() {
 learnedCSSF();
 
 function photoExpF() {
-  var photoExp = prompt('Do I have years of photography experience that results in impeccable design decisions?');
+  var photoExp = prompt('Have I shot over 50,000 photographs since 2009?');
   var photoExp = photoExp.toLowerCase();
   if (photoExp === 'yes' || photoExp === 'y') {
-    alert('You better believe I do (although applying that design eye is still a work in progress).');
+    alert('As as a matter of fact I have. It sounds impressive until you look at many old photos I need cull and process. ');
     correctAnswers.push(1);
   } else if (photoExp === 'no' || photoExp === 'n') {
-    alert('False, I do have years of photography experience.');
+    alert('False. I have indeed taken quite a few photographs.');
   } else {
-    alert('Incorrect. You need to answer Yes or No.');
+    alert('Hey now, pay attention to the question!');
   }
   console.log(photoExp);
 }
@@ -72,7 +72,7 @@ function dundieWinnerF() {
   } else if (dundieWinnerLower === 'no' || dundieWinnerLower === 'n') {
     alert('Sorry, that is not correct. I have won many Dundies!');
   } else {
-    alert('Incorrect. You need to answer Yes or No.');
+    alert('Yes or no, it is not that hard!');
   }
   console.log(dundieWinnerLower);
 }
@@ -87,7 +87,7 @@ function hardworkingF() {
   } else if (hardWorkingLower === 'no' || hardWorkingLower === 'n') {
     alert('You are incorrect, you must believe the legend is fact.');
   } else {
-    alert('Incorrect. You need to answer Yes or No.');
+    alert('Hmmmm');
   }
   console.log(hardWorkingLower);
 }
@@ -105,7 +105,7 @@ function statesBeenF() {
     } else if (parseInt(statesBeen) > '47') {
       alert('Whoa, too high. Try guessing something lower.');
     } else {
-      alert('Hey there, don\'t be silly. Enter a number between 1-50.');
+      alert('Hey, don\'t be silly. Enter a number between 1-50.');
     }
     console.log(statesBeen);
   }

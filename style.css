@@ -23,6 +23,10 @@ h1 {
   margin: auto;
   }*/
 
+  body {
+    width: 100%;
+  }
+
 li.nav {
   margin: auto;
   display: inline-block;
@@ -45,7 +49,7 @@ li.nav {
 
 .column {
   display: inline-block;
-  width: 32%;
+  width: 32.5%;
   background-color: #318bac;
   padding: 20px;
   height: 180px;
