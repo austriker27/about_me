@@ -37,7 +37,7 @@ li.nav {
 
 .name {
   background-color: #318bac;
-  border-radius: 5%;
+  /*border-radius: 5%;*/
   color: #330e6a;
   margin: auto;
   display: inline;

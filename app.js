@@ -116,7 +116,7 @@ function statesLivedGuessF() {
   for (var i = 0; i < 6; i++) {
     var statesLivedGuess = prompt('Okay smartypants, lets try one final question.. Which states haven\'t I been to?');
     console.log(statesLivedGuess);
-    var statesNotLived = ['north dakota', 'arizona', 'nevada'];
+    var statesNotLived = ['north dakota', 'delaware', 'nevada'];
     if (statesNotLived.includes(statesLivedGuess.toLowerCase())) {
       alert('You win! I have not been to the states of: ' + statesNotLived[0].toString() + ', ' + statesNotLived[1].toString() + ', or ' + statesNotLived[2].toString() + '.' );
       correctAnswers.push(1);
