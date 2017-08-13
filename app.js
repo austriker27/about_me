@@ -1,6 +1,6 @@
 'use strict';
 
-var name = prompt('Vat is your name?');
+var name = prompt('What is your name?');
 
 var correctAnswers = [];
 
