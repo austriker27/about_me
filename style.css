@@ -143,9 +143,86 @@ li nav {
 
 }
 
-.NPlists:hover {
+.NPlists #glacier:hover {
   content: url("glacier.jpg");
-  width: 32%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  display:block;
+}
+
+.NPlists #northcascades:hover {
+  content: url("northcascades.jpg");
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  display:block;
+}
+
+.NPlists #mountrainier:hover {
+  content: url("mountrainier.jpg");
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  display:block;
+}
+
+.NPlists #grandtetons:hover {
+  content: url("grandtetons.jpg");
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  display:block;
+}
+
+.NPlists #arches:hover {
+  content: url("arches.jpg");
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  display:block;
+}
+
+
+.NPlists #yosemite:hover {
+  content: url("yosemite.jpg");
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  display:block;
+}
+
+.NPlists #craterlake:hover {
+  content: url("craterlake.jpg");
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  display:block;
+}
+
+.NPlists #yellowstone:hover {
+  content: url("yellowstone.jpg");
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  display:block;
+}
+
+.NPlists #grandcanyon:hover {
+  content: url("grandcanyon.jpg");
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  display:block;
 }
 
 footer {
@@ -153,4 +230,12 @@ footer {
   clear:both;
   text-align: middle;
   font-family: Tahoma, Sans-Serif;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: #330e6a;
 }
