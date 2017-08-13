@@ -139,14 +139,16 @@ li nav {
   text-align: center;
 }
 
-#glacier {
+.NPlists li {
   background-image: url("glacier.jpg");
   background-color: #cccccc;
+  width: 100%;
 }
 
 footer {
   margin: 10%; 0%; 5%; 0%;
   clear:both;
+  text-align: middle;
 }
 
 body {
