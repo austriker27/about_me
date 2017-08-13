@@ -144,7 +144,16 @@ li nav {
 }
 
 .NPlists #glacier:hover {
-  content: url("glacier.jpg");
+  content: url("imgs/glacier.jpg");
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  display:block;
+}
+
+.NPlists #olympic:hover {
+  content: url("imgs/olympic.jpg");
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -153,7 +162,7 @@ li nav {
 }
 
 .NPlists #northcascades:hover {
-  content: url("northcascades.jpg");
+  content: url("imgs/northcascades.jpg");
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -162,7 +171,7 @@ li nav {
 }
 
 .NPlists #mountrainier:hover {
-  content: url("mountrainier.jpg");
+  content: url("imgs/mountrainier.jpg");
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -171,7 +180,7 @@ li nav {
 }
 
 .NPlists #grandtetons:hover {
-  content: url("grandtetons.jpg");
+  content: url("imgs/grandtetons.jpg");
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -180,7 +189,7 @@ li nav {
 }
 
 .NPlists #arches:hover {
-  content: url("arches.jpg");
+  content: url("imgs/arches.jpg");
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -188,9 +197,8 @@ li nav {
   display:block;
 }
 
-
 .NPlists #yosemite:hover {
-  content: url("yosemite.jpg");
+  content: url("imgs/yosemite.jpg");
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -199,7 +207,7 @@ li nav {
 }
 
 .NPlists #craterlake:hover {
-  content: url("craterlake.jpg");
+  content: url("imgs/craterlake.jpg");
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -208,7 +216,7 @@ li nav {
 }
 
 .NPlists #yellowstone:hover {
-  content: url("yellowstone.jpg");
+  content: url("imgs/yellowstone.jpg");
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -217,7 +225,7 @@ li nav {
 }
 
 .NPlists #grandcanyon:hover {
-  content: url("grandcanyon.jpg");
+  content: url("imgs/grandcanyon.jpg");
   width: 100%;
   margin: 0px;
   padding: 0px;
