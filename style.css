@@ -139,6 +139,11 @@ li nav {
   text-align: center;
 }
 
+#glacier {
+  background-image: url("glacier.jpg");
+  background-color: #cccccc;
+}
+
 footer {
   margin: 10%; 0%; 5%; 0%;
   clear:both;
